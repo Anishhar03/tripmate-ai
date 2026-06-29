@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+backend/.env
+backend/tripmate.db
+tripmate.db
+_site/
+tmp/
+.DS_Store
