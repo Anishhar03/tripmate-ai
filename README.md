@@ -4,6 +4,12 @@ TripMate AI is an end-to-end, agentic travel-planning workspace inspired by the 
 
 The public app works immediately without an API key. It uses a deterministic local planner and stores trips on the device. Connecting the backend enables server-side LangGraph orchestration, Groq research, and durable multi-device storage.
 
+## In-depth documentation
+
+The [TripMate AI Engineering Handbook](docs/README.md) explains the project from product requirements through implementation and operations. It includes runtime and deployment diagrams, frontend state and planner internals, LangGraph/Groq orchestration, API and database contracts, PWA security, testing, CI/CD, a from-scratch build tutorial, troubleshooting runbooks, and interview questions with detailed answers.
+
+Start with the [documentation index](docs/README.md), or jump directly to the [complete build-from-scratch guide](docs/08-build-from-scratch.md).
+
 ## Live product features
 
 - Multi-agent trip generation with research, route, budget, and safety roles
