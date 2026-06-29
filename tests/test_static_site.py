@@ -17,7 +17,7 @@ class StaticSiteTests(unittest.TestCase):
 
     def test_manifest_is_valid_and_scoped_for_pages(self):
         manifest = json.loads((ROOT / "public" / "manifest.webmanifest").read_text(encoding="utf-8"))
-        self.assertEqual(manifest["start_url"], "/tripmate-ai/")
+        self.assertEqual(manifest["start_url"], "../")
         self.assertEqual(manifest["display"], "standalone")
 
     def test_core_workflows_are_present(self):
